@@ -1,9 +1,6 @@
-from gale.mapper import (
-    create_mapper,
-    create_pd,
-    bottleneck_distance,
-    bootstrap_mapper_params,
-    mapper_to_networkx,
-)
+from gale.mapper import (bootstrap_sub, bottleneck_distance, calculate_loss,
+                         create_mapper, create_pd, dictify_results,
+                         find_best_params, grid_search, mapper_to_networkx,
+                         post_process)
 
 __version__ = "0.0.1"
